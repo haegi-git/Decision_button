@@ -1,0 +1,31 @@
+name: decision_button
+description: A fun app that decides your fate.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  audioplayers: ^5.2.1
+  cupertino_icons: ^1.0.8
+  confetti: ^0.7.0
+  google_mobile_ads: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/mixkit-birthday-crowd-party-cheer-531.wav
+    - assets/sounds/mixkit-cartoon-girl-saying-no-no-no-2257.wav
+    - assets/sounds/mixkit-cartoon-sad-party-horn-527.wav
+    - assets/sounds/mixkit-lost-kid-sobbing-474.wav
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1 # 버전은 pub.dev에서 최신으로 확인
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png" # 아이콘 경로
